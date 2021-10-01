@@ -49,7 +49,7 @@ for product in searchProduct:
 
 print(products)
 
-
+driver.close()
 
 
 
