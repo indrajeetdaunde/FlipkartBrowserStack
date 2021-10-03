@@ -16,7 +16,7 @@ class TestFlipkartSearchProduct(BaseClass):
         flipkart_home_page = FlipkartHomePage(self.driver)
         log.info("Close Signup Pop up")
         flipkart_home_page.click_close_signup_button().click()
-        flipkart_home_page.get_search_product_str().send_keys("Samsung Galaxy S10")
+        flipkart_home_page.get_search_product_str().send_keys(get_data["search_product"])
         product_list_page = flipkart_home_page.click_search_product_button()
         self.verify_link_presence("div[class='_5THWM1'] span")
         list_of_menus = product_list_page.get_list_of_menus()

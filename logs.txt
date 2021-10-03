@@ -61,3 +61,4 @@
 2021-10-03 00:50:52,281 : INFO : test_flipkart_search_product : Close Signup Pop up
 2021-10-03 00:52:48,693 : INFO : test_flipkart_search_product : Close Signup Pop up
 2021-10-03 00:53:41,687 : INFO : test_flipkart_search_product : Close Signup Pop up
+2021-10-03 10:58:42,630 : INFO : test_flipkart_search_product : Close Signup Pop up
